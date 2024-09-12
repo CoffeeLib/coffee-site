@@ -1,0 +1,63 @@
+body {
+    background-color: #202020;
+
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+
+p {
+    margin-left: 20%;
+    margin-right: 20%;
+
+    font-weight: normal;
+}
+
+p.bold {
+    font-weight: bold;
+}
+
+h1.centered, h2.centered, h3.centered {
+    text-align: center;
+}
+
+div.ulist {
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+}
+
+img.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    border: 5px solid #303030;
+    border-spacing: 10px;
+    border-radius: 10px;
+
+    width: 80%;
+    table-layout: fixed;
+}
+
+th, td {
+    background-color: #303030;
+    border-radius: 5px;
+    padding: 20px;
+
+    text-align: center;
+}
+
+table.centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: darkturquoise;
+}
