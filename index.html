@@ -4,66 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
-    <title>CoffeeLib - Home</title>
+    <link href="icon.png" rel="icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <title>Coffee</title>
 </head>
 <body>
-    <!-- Header -->
-    <h1 class="centered">CoffeeLib</h1>
-    <img class="centered" src="image.png" width="64">
+    <script src="main.js"></script>
 
-    <br>
-
-    <!-- Link Table -->
-    <table class="centered">
-        <tr style="height: 100px">
-            <td><a href="https://github.com/CoffeeLib">Follow the Github!</a></td>
-            <td><a href="https://github.com/CoffeeLib/coffeelite">Download</a></td>
-            <td><a href="https://github.com/CoffeeLib/coffeelite/wiki">Wiki</a></td>
-        </tr>
-    </table>
-
-    <br>
-    
-    <h2 class="centered">What is Coffee?</h2>
-    <p>No, not the drink.
-    Coffee is a JavaScript library made by me, designed to make creating games with HTML/JavaScript canvas more straightforward and simple. The library contains many functions related to drawing shapes, text, and images.</p>
-    
-    <h2 class="centered">Why Coffee?</h2>
-    <p>While it is still a work in progress, it is a great library for those beginning to make games in JavaScript/HTML.</p>
-
-    <h2 class="centered">About the Creator ☕</h2>
-    <p>Hi! I'm devpz, the host and creator of the coffee JavaScript library.</p>
-
-    <p>It has been a passion of mine for around 6-7 years to make games. I've always been fascinated of how games are made, especially the engines behind them. So I figured, "Why not make my own?" So I did!</p>
-
-    <h3 class="centered">Skills</h3>
-    <div class="ulist">
-        <ul>
-            <li>Intermediate in frontend programming 🖊</li>
-            <li>Game Development 🎮</li>
-            <li>Many programming languages 🖥</li>
-            <li>Game Modding 🛠</li>
-        </ul>
+    <div class="header">
+        <button class="img" onclick="travel('index.html')">
+            <img src="icon.png" width="48">
+        </button>
+        <!-- <p class="bold">Coffee</p> -->
+        <button class="link" onclick="travel('https://github.com/CoffeeLib/coffeelite')">
+            Github
+        </button>
+    </div>
+    <div class="body">
+        <img class="logo" src="icon.png" width="256">
+        <h1>Making games, <br>made easy.</h1>
+        <p class="bold">Coffee is an open source, lightweight JavaScript game creation library with the goal of making game development simple and straightforward.</p>
+        <table class="buttons">
+            <tr>
+                <td>
+                    <button class="tabled-yellow" onclick="travel('https://github.com/CoffeeLib/coffeelite')">
+                        Star the Github <i class="fab fa-github"></i>
+                    </button>
+                </td>
+                <td>
+                    <button class="tabled">
+                        Get it <i class="fas fa-download"></i>
+                    </button>
+                </td>
+            </tr>
+        </table>
     </div>
 
-    <h3 class="centered">Languages I know ⌨</h3>
+    <div class="body">
+        <h1>Keep it light.</h1>
+        <p class="bold">Coffee is a very lightweight JavaScript library, weighing in at only 18.6KB zipped.</p>
+        <img class="screenshot" src="screenshots/4.png" style="margin-top: 50px;">
+    </div>
 
-    <div class="ulist">
-        <ul>
-            <li>Python - 8</li>
-            <li>JavaScript - 7</li>
-            <li>TypeScript - 7</li>
-            <li>Ruby - 3</li>
-            <li>GDScript - 9</li>
-            <li>Scratch - 10</li>
-            <li>Blockly - 10</li>
-            <li>TI-Basic - 6</li>
-            <li>Rust - 2</li>
-            <li>C - 4</li>
-            <li>C++ - 1</li>
-            <li>Java - 2</li>
-            <li>Kotlin - 4</li>
-        </ul>
+    <div class="body">
+        <h1>Keep it simple.</h1>
+        <p class="bold">Coffee is a simple, easy-to-use library, making most HTML canvas code a lot shorter and more readable.</p>
+        <table>
+            <tr>
+                <th>Old</th>
+                <th>New</th>
+            </tr>
+            <tr>
+                <td><img class="screenshot" src="screenshots/5.png"></td>
+                <td><img class="screenshot" src="screenshots/6.png"></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="body">
+        <h1>Keep it going.</h1>
+        <p class="bold">Coffee is open source, meaning anyone can view or modify the code and use it in their own projects! Contributors can also help advance the project by adding their own features!</p>
+        
+        <table>
+            <tr>
+                <td><img class="screenshot" src="screenshots/1.png"></td>
+                <td><img class="screenshot" src="screenshots/2.png"></td>
+                <td><img class="screenshot" src="screenshots/3.png"></td>
+            </tr>
+        </table>
     </div>
 </body>
 </html>
